@@ -1,0 +1,14 @@
+/* src/components/CartIcon/CartIcon.css */
+.cart-icon {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .cart-icon span {
+    font-weight: bold;
+  }
+  

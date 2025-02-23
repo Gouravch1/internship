@@ -1,0 +1,50 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --primary-color: #2C3E50;    
+  --secondary-color: #E67E22; 
+  --accent-color: #27AE60;     
+  
+
+  --bg-primary: #F8FAFC;       
+  --bg-secondary: #FFFFFF;    
+  
+  /* Text Colors */
+  --text-primary: #2C3E50;   
+  --text-secondary: #64748B;   
+   --text-light: #94A3B8;      
+  
+  /* Border Colors */
+  --border-color: #E2E8F0;
+  
+  /* Status Colors */
+  --success: #27AE60;
+  --error: #E74C3C;
+  --warning: #F1C40F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
